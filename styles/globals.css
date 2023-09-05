@@ -1,27 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "./icomoon.css";
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
+.backgorund-image {
+  background: rgb(63, 180, 58);
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    0deg,
+    rgba(63, 180, 58, 1) 0%,
+    rgba(29, 253, 177, 1) 50%,
+    rgba(69, 169, 252, 1) 100%
+  );
 }
